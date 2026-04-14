@@ -1,0 +1,176 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: open sans;
+    h1,h2,p{
+    margin:0;
+    }
+}
+
+.main_wrapper{
+    width: 100%;
+
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Start Header */
+
+.header{
+    background-color: #1F5E3B;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_left{
+    width:900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu_left ul{
+    list-style-type: none;
+    display: flex;
+}
+.menu_left ul li{
+
+
+}
+.menu_left ul li a{
+    text-decoration: none;
+    padding: 15px 25px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+.menu_left ul li a:hover{
+
+    color:#F7931E;
+    border-bottom: 3px solid #F7931E;
+    transition: 0.3s ease;
+}
+.menu_left ul li a.active{
+    color:#E67E22;
+    border-bottom: 3px solid #F7931E;
+}
+
+.menu_button{
+
+}
+
+.menu_button button{
+    color:#fff;
+    font-weight: 900;
+    background-color: #E67E22;
+    border:none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor:pointer;
+    transition: 0.3s ease;
+    transform-origin: center;
+}
+
+.menu_button button:active{
+    transform: scale(1.05);
+    background-color: #cc6f0a;
+}
+.menu_button button:hover{
+    transform:scale(1.08);
+    background-color: #d66b0d;
+}
+
+/* End Header */
+/* Start Slide */
+.bg{background-color: #fff;}
+.slider{
+    background-image: url(img/PALM-1.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+.slider h1{
+    width: 600px;
+    padding: 25px;
+    font-size: 50px;
+    color: #1F5E3B;
+}
+
+.highlight{color:red;}
+
+.slidbtn{
+ margin-left:25px;
+ background-color: red;
+ width:550px;
+ padding: 15px 25px;
+ border-radius: 8px;
+}
+.slidbtn{
+    color:#fff;
+
+}
+
+/* End Slide */
+
+/* Start Marque */
+.mrq{
+    background-color: #fff;
+    overflow: hidden;
+}
+.maque_slide{
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    white-space: nowrap;
+    animation: scrollText 15s linear infinite;
+    margin-bottom: 40px;
+}
+
+.maque_slide p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin:0;
+}
+
+    @keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+}}
+
+/* End Marque */
+/* Start Product Section */
+.prd{
+    background-color: #FAFAFA;
+}
+.product_section{
+
+    background-color: #FAFAFA;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgb(0 0 0);
+}
+
+.product_section h2{
+    background-color: #F4F7F4;
+    padding: 15px;
+    color: #1F5E3B;
+}
+/* End Product Section */
