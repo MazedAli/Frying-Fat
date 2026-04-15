@@ -166,6 +166,7 @@ body{
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgb(0 0 0);
+
 }
 
 .product_section h2{
@@ -173,4 +174,37 @@ body{
     padding: 15px;
     color: #1F5E3B;
 }
+.productleft{
+    padding-left: 0;
+    margin:0;
+    width:800px;
+    list-style: none;
+
+}
+.productleft ul{
+    padding-left: 0;
+    margin: 0;
+}
+
+.productleft li{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.bi-check-circle-fill {
+    color: #1F5E3B;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.productleft li strong{
+    font-weight: 600;
+    margin-right: 5px;
+}
+.productleft li span{
+    color:#444;
+}
+
 /* End Product Section */
