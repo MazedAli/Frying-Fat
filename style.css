@@ -1,12 +1,13 @@
-body{
+body {
     background-color: bisque;
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: open sans;
-    h1,h2,p{
-    margin:0;
-    }
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, p {
+    margin: 0;
 }
 
 .main_wrapper{
@@ -161,23 +162,25 @@ body{
     background-color: #FAFAFA;
 }
 .product_section{
-
+    display: flex;
     background-color: #FAFAFA;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgb(0 0 0);
-
+    justify-content: space-between;
+    gap:30px;
 }
 
-.product_section h2{
+.productleft h2{
     background-color: #F4F7F4;
     padding: 15px;
     color: #1F5E3B;
+    font-size: 28px;
 }
 .productleft{
     padding-left: 0;
     margin:0;
-    width:800px;
+    width:600px;
     list-style: none;
 
 }
@@ -202,9 +205,20 @@ body{
 .productleft li strong{
     font-weight: 600;
     margin-right: 5px;
+    font-size: 18px;
 }
 .productleft li span{
     color:#444;
+}
+
+.productright{
+    background-image: url(img/rosebrand.png);
+    background-size:cover;
+    background-position:right;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+
 }
 
 /* End Product Section */
