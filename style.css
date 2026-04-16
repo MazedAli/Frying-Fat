@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
 }
-
+``1`
 h1, h2, p {
     margin: 0;
 }
@@ -113,11 +113,11 @@ h1, h2, p {
 .highlight{color:red;}
 
 .slidbtn{
- margin-left:25px;
- background-color: red;
- width:550px;
- padding: 15px 25px;
- border-radius: 8px;
+    margin-left:25px;
+    background-color: red;
+    width:550px;
+    padding: 15px 25px;
+    border-radius: 8px;
 }
 .slidbtn{
     color:#fff;
@@ -179,9 +179,9 @@ h1, h2, p {
 }
 .productleft{
     padding-left: 0;
-    margin:0;
-    width:600px;
+    margin-button:0px;
     list-style: none;
+
 
 }
 .productleft ul{
@@ -191,24 +191,30 @@ h1, h2, p {
 
 .productleft li{
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     gap:10px;
     margin-bottom: 10px;
+    border-bottom: 1px solid #1F5E3B;
+    font-size: 18px;
 }
 
 .bi-check-circle-fill {
     color: #1F5E3B;
     font-size: 18px;
-    margin-top: 4px;
+
 }
 
 .productleft li strong{
+    width:120px;
     font-weight: 600;
     margin-right: 5px;
     font-size: 18px;
+    display:inline-block;
 }
 .productleft li span{
     color:#444;
+    flex:1;
+    line-height: 1.9;
 }
 
 .productright{
@@ -222,3 +228,23 @@ h1, h2, p {
 }
 
 /* End Product Section */
+/* Star Preisstufe Section */
+.prc{
+    background-color: #fff;
+}
+.preisstufe{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgb(0 0 0); 
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.preisstufe h2{
+    background-color: #F4F7F3;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    border-bottom: 3px solid #1F5E3B;
+}
+
+/* End Preisstufe Section*/
